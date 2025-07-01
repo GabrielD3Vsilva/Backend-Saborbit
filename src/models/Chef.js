@@ -37,7 +37,7 @@ const chefSchema = new mongoose.Schema({
     },
     planoAtivo: { 
       type: Boolean,
-      default: true,
+      default: false,
     },
     dataExpiracaoPlano: { 
       type: Date,
